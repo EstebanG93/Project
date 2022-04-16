@@ -120,3 +120,25 @@ footer img{
     "form form villes"
     "footer footer footer";
 }
+#titulo:hover{
+    animation: menu 2s;
+}
+@keyframes menu{
+    25%{
+        font-family: 'Comic Sans MS', sans-serif;
+        background-color: aqua;
+        transform: translateY(-10px);
+    }
+    50%{
+        border-radius: 25%;
+        transform: scale(10);
+        background-color: aquamarine;
+        color: orange;
+    }
+    75%{
+        font-family: 'Hurricane', cursive;
+        background-color: wheat;
+        border-radius: 0%;
+    }
+
+}
